@@ -8,7 +8,7 @@ class Api::V1::CompaniesController < ApiController
 
     def show 
         #@current_user = current_user.companies
-        # render json: @company, status: :ok
+        render json: @company, status: :ok
     end
 
     private
