@@ -14,7 +14,6 @@ class Api::V1::CompaniesController < ApiController
     private
 
     def set_company
-        #@company = Company.find(params[:id])
         @company = current_user.companies.find(params[:id])
 
     rescue  ActiveRecord::RecordNotFound => error
