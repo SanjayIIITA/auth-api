@@ -23,7 +23,7 @@ Things you may want to cover:
 
 * Deployment instructions
 * Followed these links for authentication and authorization.
-* 
+  
 * https://github.com/waiting-for-dev/devise-jwt
 * https://github.com/CanCanCommunity/cancancan?tab=readme-ov-file
   
